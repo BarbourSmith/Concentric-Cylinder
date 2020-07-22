@@ -4,9 +4,30 @@
     "x": 0,
     "y": 0,
     "uniqueID": 359367,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Height",
+            "ioValue": 10
+        },
+        {
+            "name": "ID",
+            "ioValue": 10
+        },
+        {
+            "name": "OD",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
+        {
+            "atomType": "Input",
+            "name": "OD",
+            "x": 0.013333333333333334,
+            "y": 0.2567049808429119,
+            "uniqueID": 411395,
+            "ioValues": []
+        },
         {
             "atomType": "Circle",
             "name": "Circle",
@@ -37,9 +58,17 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 20
+                    "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Input",
+            "name": "ID",
+            "x": 0.013333333333333334,
+            "y": 0.5478927203065134,
+            "uniqueID": 288208,
+            "ioValues": []
         },
         {
             "atomType": "Extrude",
@@ -53,6 +82,14 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Input",
+            "name": "Height",
+            "x": 0.013333333333333334,
+            "y": 0.8314176245210728,
+            "uniqueID": 932691,
+            "ioValues": []
         },
         {
             "atomType": "Output",
@@ -85,10 +122,24 @@
             "ap2ID": 110645
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 288208,
+            "ap2ID": 612025
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 392839
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 932691,
+            "ap2ID": 392839
         }
     ],
     "fileTypeVersion": 1,
