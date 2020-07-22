@@ -37,7 +37,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 22
+                    "ioValue": 10
                 }
             ]
         },
@@ -100,6 +100,13 @@
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 411395,
+            "ap2ID": 451737
+        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry1",
