@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "OD",
-            "ioValue": 10
+            "ioValue": 20
         },
         {
             "name": "ID",
@@ -37,7 +37,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 20
                 }
             ]
         },
